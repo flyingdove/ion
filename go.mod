@@ -25,3 +25,5 @@ require (
 	google.golang.org/grpc v1.41.0
 	google.golang.org/protobuf v1.27.1
 )
+
+replace github.com/improbable-eng/grpc-web v0.14.1 => github.com/jsmouret/grpc-web v0.14.2-0.20211103063242-8c932b2237aa
