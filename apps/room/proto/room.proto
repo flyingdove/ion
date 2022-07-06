@@ -49,6 +49,7 @@ message Request {
     LeaveRequest leave = 2;
     SendMessageRequest sendMessage = 3;
     UpdateRoomRequest updateRoom = 4;
+    UpdatePeerRequest updatePeer = 5;
   }
 }
 
